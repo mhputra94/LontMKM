@@ -24,47 +24,4 @@ Usage example:
 2. Run: lontmkm example.yaml
 3. Outputs: buaya.png and buaya.csv
 
----
-
-## Bahasa Indonesia
-LontMKM (Light-Oriented Nano-catalysis Toolkit for MicroKinetic Modeling) adalah paket Python untuk mensimulasikan reaksi mikrokinetik yang melibatkan katalis berbasis cahaya.
-Mendukung perhitungan konstanta laju dengan teori Marcus, teori Eyring, dan Transient Absorption Spectroscopy (k = 1/τ).
-
-Fitur:
-- Input berbasis YAML
-- Satuan energi dalam eV
-- Reaksi reversibel dan irreversibel
-- Deteksi otomatis kekakuan (stiffness) untuk penyelesai ODE (RK45 atau BDF)
-- Output dalam bentuk grafik PNG dan file CSV
-- Nama file output dapat diatur melalui YAML
-
-Instalasi:
-pip install git+https://github.com/mhputra94/LontMKM.git
-
-Penggunaan:
-1. Buat file YAML, misalnya example.yaml
-2. Jalankan: lontmkm example.yaml
-3. Hasil: buaya.png dan buaya.csv
-
----
-
-## Deutsch
-LontMKM (Light-Oriented Nano-catalysis Toolkit for MicroKinetic Modeling) ist ein Python-Paket zur Simulation von mikrokinetischen Reaktionen mit lichtgetriebener Katalyse.
-Es unterstützt die Berechnung von Geschwindigkeitskonstanten mittels Marcus-Theorie, Eyring-Theorie und Transient Absorption Spectroscopy (k = 1/τ).
-
-Funktionen:
-- YAML-basierte Eingabe
-- Energieeinheiten in eV
-- Reversible und irreversible Reaktionen
-- Automatische Steifigkeitserkennung für ODE-Löser (RK45 oder BDF)
-- Ausgabe als PNG-Diagramm und CSV-Datei
-- Anpassbare Ausgabedateinamen per YAML
-
-Installation:
-pip install git+https://github.com/mhputra94/LontMKM.git
-
-Verwendung:
-1. Erstellen Sie eine YAML-Datei, z.B. example.yaml
-2. Ausführen: lontmkm example.yaml
-3. Ergebnis: buaya.png und buaya.csv
 
