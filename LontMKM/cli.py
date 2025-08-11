@@ -19,3 +19,5 @@ def main():
     else:
         print("Integration failed:", sol.message)
 
+if __name__ == "__main__":
+    main()
