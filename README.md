@@ -48,28 +48,6 @@ Penggunaan:
 
 ---
 
-## Nederlands
-LontMKM (Light-Oriented Nano-catalysis Toolkit for MicroKinetic Modeling) is een Python-pakket voor het simuleren van microkinetische reacties met lichtgestuurde katalyse.
-Het ondersteunt de berekening van snelheidsconstanten via Marcus-theorie, Eyring-theorie en Transient Absorption Spectroscopy (k = 1/τ).
-
-Functies:
-- YAML-gebaseerde invoer
-- Energie-eenheden in eV
-- Omkeerbare en onomkeerbare reacties
-- Automatische detectie van stijfheid voor ODE-oplossers (RK45 of BDF)
-- Uitvoer als PNG-grafiek en CSV-bestand
-- Aanpasbare bestandsnamen via YAML
-
-Installatie:
-pip install git+https://github.com/mhputra94/LontMKM.git
-
-Gebruik:
-1. Maak een YAML-bestand, bijvoorbeeld example.yaml
-2. Voer uit: lontmkm example.yaml
-3. Uitvoer: buaya.png en buaya.csv
-
----
-
 ## Deutsch
 LontMKM (Light-Oriented Nano-catalysis Toolkit for MicroKinetic Modeling) ist ein Python-Paket zur Simulation von mikrokinetischen Reaktionen mit lichtgetriebener Katalyse.
 Es unterstützt die Berechnung von Geschwindigkeitskonstanten mittels Marcus-Theorie, Eyring-Theorie und Transient Absorption Spectroscopy (k = 1/τ).
